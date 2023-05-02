@@ -1,0 +1,30 @@
+body {
+  display: flex; /* 몸을 flex하게 만들어준다 */
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: grey;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 500px;
+  height: 600px;
+  gap: 40px;
+}
+
+.arti {
+  background-color: blueviolet;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.c {
+  border-radius: 0;
+}

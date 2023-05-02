@@ -1,0 +1,51 @@
+body {
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.s1 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 100px;
+  border-radius: 75px;
+  background-color: blueviolet;
+}
+
+.s2 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  /* 크기 설정 및 포지션 설정 */
+  left: 50%;
+  transform: translateX(-50%);
+  /* left로부터 50% 한 후에 다시 중앙 설정 */
+  margin-top: 350px;
+  /* 탑으로부터 간격 설정 */
+  border-radius: 75px;
+  /* 테두리 모깎기 */
+  background-color: blueviolet;
+  /* 배경색 */
+}
+
+.s3 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 600px;
+  background-color: blueviolet;
+  /* 위와의 차이점은 테두리 모깍기 X */
+}
+.box {
+  position: absolute;
+  top: 15px;
+  width: 600px;
+  height: 850px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: aquamarine;
+}

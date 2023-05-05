@@ -1,7 +1,11 @@
 기간 : 월요일 12시까지
+<br/>
 html 파일
+<br/>
 css 파일
+<br/>
 image 파일
+<br/>
 GRID GARDEN / FLEXBOX FROGGY 엔딩사진
 
 자기 이름 폴더 submit에 만들어서 위 5개 파일 넣고 커밋

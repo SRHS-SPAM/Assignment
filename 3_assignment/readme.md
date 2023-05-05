@@ -15,6 +15,16 @@ GRID GARDEN / FLEXBOX FROGGY 엔딩사진
 1. grid
    <br/>
 
+필수로 들어야 하는 강의
+<br/>
+https://www.youtube.com/watch?v=nxi1EXmPHRs
+<br/>
+https://www.youtube.com/watch?v=7neASrWEFEM
+
+추가로 들으면 좋은 강의
+<br/>
+https://www.youtube.com/watch?v=eprXmC_j9A4
+
 # 추가과제
 
 1. FLEXBOX FROGGY

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Centered Shapes</title>
+	<style>
+		body{
+			display: flex;				/*display 선언*/
+			justify-content: center;	/*main 가로 중앙 배치*/
+			align-items: center;		/*main 세로 중앙 배치*/
+			margin: 0;					
+			height: 100vh;				/*기준 선언*/
+		}
+		#main {
+			display: flex;				/*display 선언*/
+			flex-direction: column;		/*요소 수직으로 배치*/
+			justify-content: center;	/*요소 가로 중앙 배치*/
+			align-items: center;		/* 세로 중앙 배치*/
+			height: 380px;
+			width: 200px;
+            background-color: aqua;		
+		}
+		.shape {
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			background-color: #f00;
+			margin: 20px 0 20px 0;
+		}
+		.shape1 {
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			background-color: #f00;
+			margin: 0 0 20px 0;
+		}
+		#rectangle {
+			width: 100px;
+			height: 100px;
+			background-color: #0f0;
+			margin: 0 0 20px 0;
+		}
+	</style>
+</head>
+<body>
+
+		<div id="main">
+			<div class="shape"></div>
+			<div class="shape1"></div>
+			<div id="rectangle"></div>
+		</div>
+
+	</body>
+</html>

@@ -1,57 +1,57 @@
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    height: 100vh;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 100vh;
 }
-.container{
-    box-shadow:10px 10px 40px grey ;
-    display: grid;
-    grid-template-columns: repeat(4,130px);
-    grid-template-rows: repeat(4,100px);
-    grid-template-areas: "a a b b" "a a b b" "c c d e" "c c f g";
+.container {
+  box-shadow: 10px 10px 40px grey;
+  display: grid;
+  grid-template-columns: repeat(4, 130px);
+  grid-template-rows: repeat(4, 100px);
+  grid-template-areas: "a a b b" "a a b b" "c c d e" "c c f g";
 }
-.item{
-    background-color: aqua;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    font-weight: bold;
+.item {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
 }
-.a{
-    color:red;
-    background-color: antiquewhite;
-    grid-area: a;
+.a {
+  color: red;
+  background-color: antiquewhite;
+  grid-area: a;
 }
-.b{
-    color:rgb(44, 22, 22);
-    background-color: bisque;
-    grid-area: b;
+.b {
+  color: rgb(44, 22, 22);
+  background-color: bisque;
+  grid-area: b;
 }
-.c{
-    color:rgb(147, 106, 212);
-    background-color: blue;
-    grid-area: c;
+.c {
+  color: rgb(147, 106, 212);
+  background-color: blue;
+  grid-area: c;
 }
-.d{
-    color:rgb(151, 75, 75);
-    background-color: rgb(179, 162, 196);
-    grid-area: d;
+.d {
+  color: rgb(151, 75, 75);
+  background-color: rgb(179, 162, 196);
+  grid-area: d;
 }
-.e{
-    color:rgb(66, 44, 77);
-    background-color: cadetblue;
-    grid-area: e;
+.e {
+  color: rgb(66, 44, 77);
+  background-color: cadetblue;
+  grid-area: e;
 }
-.f{
-    color:rgb(56, 117, 97);
-    background-color: cornsilk;
-    grid-area: f;
+.f {
+  color: rgb(56, 117, 97);
+  background-color: cornsilk;
+  grid-area: f;
 }
-.g{
-    color:rgb(134, 63, 63);
-    background-color: darkorchid;
-    grid-area: g;
+.g {
+  color: rgb(134, 63, 63);
+  background-color: darkorchid;
+  grid-area: g;
 }

@@ -37,5 +37,5 @@ https://www.youtube.com/watch?v=eprXmC_j9A4
    https://cssgridgarden.com
    level 28까지
 
-김재환 △ (결과 image, 추가과제 image)
+김재환 △ (추가과제 image)
 <br/>

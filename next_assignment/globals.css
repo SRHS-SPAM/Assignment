@@ -48,6 +48,9 @@ body {
   text-decoration: none;
 }
 
+.list-bg {
+  padding: 10px;
+}
 .list-item {
   background: white;
   border-radius: 10px;
@@ -63,4 +66,70 @@ body {
 .list-item p {
   color: grey;
   margin: 5px 0px;
+}
+
+.arrow {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: -15px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scale: 0.8;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.one {
+  position: absolute;
+  width: 40px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #286246;
+  rotate: -45deg;
+  top: 34px;
+  left: 0;
+}
+
+.two {
+  position: absolute;
+  width: 74px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #286246;
+}
+
+.three {
+  position: absolute;
+  width: 40px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #286246;
+  rotate: 45deg;
+  bottom: 34px;
+  left: 0;
+}
+
+.fab-container {
+  width: 50px;
+  height: 50px;
+  background-color: #00a8ff;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  right: 2em;
+  bottom: 2em;
+}
+
+.fub-button {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background-color: blueviolet;
 }

@@ -1,6 +1,8 @@
+"use client"
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Link from "next/link"
+import { useState } from 'react'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -9,6 +11,7 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+  let [isIn, setisIn] = useState(0)
   return (
     <html lang="en">
       <body className={inter.className}>
@@ -18,13 +21,16 @@ export default function RootLayout({ children }) {
           <Link href="/button">button</Link>
           <Link href="/object">object</Link>
         </div>
+        <div className="fab-container" onMouseEnter={()=>{setisIn(1)}} onMouseLeave={()=>{setisIn(0)}}>
+          <Fab location={isIn}/>
+        </div>
         {children}
       </body>
     </html>
   )
 }
 
-function Arrow(location) {
+function Arrow() {
   return (
     <Link href="/">
       <div className="arrow">
@@ -33,5 +39,26 @@ function Arrow(location) {
         <div className="three"></div>
       </div>
     </Link>
+  )
+}
+
+function Fab(props) {
+  let linkList=["object", "button", "main"]
+  return (
+    <div className="fub-container">
+    <div className="fub-button" style={props.location==1?{"background-color":"rgba(137, 43, 226, 0)"}:{"background-color":"rgba(137, 43, 226, 100)"}}>
+    <div className="fub-button" style={props.location==1?{"opacity":"1", "background-color":"rgba(137, 43, 226, 0)"}:{"opacity":"0"}}>
+      {
+        linkList.map((ai, i)=> {
+          return (
+            <div>
+              <Link href={ai==="main"?"/":"/"+ai}>{ai}</Link>
+            </div>
+          )
+        })
+      }
+    </div>
+    </div>
+    </div>
   )
 }

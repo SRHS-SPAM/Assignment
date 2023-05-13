@@ -12,6 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+        <Arrow/>
         <div className="navbar">
           <Link href="/">home</Link>
           <Link href="/button">button</Link>
@@ -20,5 +21,17 @@ export default function RootLayout({ children }) {
         {children}
       </body>
     </html>
+  )
+}
+
+function Arrow(location) {
+  return (
+    <Link href="/">
+      <div className="arrow">
+        <div className="one"></div>
+        <div className="two"></div>
+        <div className="three"></div>
+      </div>
+    </Link>
   )
 }

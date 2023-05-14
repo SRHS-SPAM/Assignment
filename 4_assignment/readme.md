@@ -13,3 +13,11 @@ image 파일
 
 아이콘은 fontawesome 사용
 fontawesome 사용법은 구글링
+
+국재윤 O ★★★★★
+<br/>
+정윤환 O ★★★★☆
+<br/>
+김재환 X
+<br/>
+김민재 X

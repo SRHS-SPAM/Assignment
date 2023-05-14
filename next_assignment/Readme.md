@@ -20,6 +20,9 @@ Fab는 제가 부족해서 css못하겠으니깐 저렇게 하자있는상태로
 =
 mongodb를 이용해서 page를 만들어봐요
 연결 url: mongodb+srv://next-check-auth:vq2tFVWkALpV8@msg2324.ht0vcrp.mongodb.net/?retryWrites=true&w=majority
+database이름은 next-check 컬렉션 이름은 mongo입니다
+let db = (await connectDB).db("next-check");
+let result = await db.collection("mongo").~
 이 url이용해서 강의 5강쯤 까지의 내용을 이용해 (사실 따라하면 그만) 페이지를 만들어보아요 esay하니깐
 mongo페이지는 사진처럼 db불러와서 만들고
 detail도 똑같이 사진처럼

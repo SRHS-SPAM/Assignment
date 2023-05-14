@@ -11,7 +11,6 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
-  let [isIn, setisIn] = useState(0)
   return (
     <html lang="en">
       <body className={inter.className}>
@@ -21,9 +20,7 @@ export default function RootLayout({ children }) {
           <Link href="/button">button</Link>
           <Link href="/object">object</Link>
         </div>
-        <div className="fab-container" onMouseEnter={()=>{setisIn(1)}} onMouseLeave={()=>{setisIn(0)}}>
-          <Fab location={isIn}/>
-        </div>
+        <Fab/>
         {children}
       </body>
     </html>
@@ -42,23 +39,26 @@ function Arrow() {
   )
 }
 
-function Fab(props) {
+function Fab() {
+  let [isIn, setisIn] = useState(0)
   let linkList=["object", "button", "main"]
   return (
-    <div className="fub-container">
-    <div className="fub-button" style={props.location==1?{"background-color":"rgba(137, 43, 226, 0)"}:{"background-color":"rgba(137, 43, 226, 100)"}}>
-    <div className="fub-button" style={props.location==1?{"opacity":"1", "background-color":"rgba(137, 43, 226, 0)"}:{"opacity":"0"}}>
-      {
-        linkList.map((ai, i)=> {
-          return (
-            <div>
-              <Link href={ai==="main"?"/":"/"+ai}>{ai}</Link>
-            </div>
-          )
-        })
-      }
-    </div>
-    </div>
+    <div onMouseEnter={()=>{setisIn(1)}}onMouseLeave={()=>{setisIn(0)}}>
+      <div className="menubar" style={isIn==1?{"display":"inline"}:{"display":"none"}}>
+        <div className="menu_bottom">
+        {
+          linkList.map((ai, i)=> {
+            return (
+              <div className="menu_column">
+                <Link href={ai==="main"?"/":"/"+ai}>{ai}</Link>
+              </div>
+            )
+          })
+        }
+        </div>
+        <div className="menu_top"/>
+      </div>
+      <div className="fab"/>
     </div>
   )
 }

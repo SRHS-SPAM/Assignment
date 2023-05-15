@@ -239,3 +239,19 @@ body {
   color: grey;
   margin: 5px 0px;
 }
+
+.p-20 {
+  padding: 20px;
+}
+.form-20 input {
+  box-sizing: border-box;
+  padding: 10px;
+  display: block;
+  margin-bottom: 10px;
+}
+.form-20 button {
+  padding: 10px 15px;
+  background: lightgray;
+  border: none;
+  border-radius: 5px;
+}

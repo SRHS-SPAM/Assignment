@@ -27,4 +27,4 @@ let result = await db.collection("mongo").~
 mongo페이지는 사진처럼 db불러와서 만들고
 detail도 똑같이 사진처럼
 fab는 방치해도 무방해요
-월요일 22시까지 할게염
+월요일 24시까지 할게염

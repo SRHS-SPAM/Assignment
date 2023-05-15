@@ -19,6 +19,7 @@ export default function RootLayout({ children }) {
           <Link href="/">home</Link>
           <Link href="/button">button</Link>
           <Link href="/object">object</Link>
+          <Link href="/mongo">mongo</Link>
         </div>
         <Fab/>
         {children}

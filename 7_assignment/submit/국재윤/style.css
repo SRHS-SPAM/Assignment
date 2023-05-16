@@ -12,8 +12,8 @@ body {
 
 .container {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
-  height: 75%;
-  width: 60%;
+  height: 500px;
+  width: 800px;
 }
 
 li {
@@ -27,9 +27,14 @@ li {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  font-weight: bold;
 }
 .box {
   padding: 10px;
+}
+
+.side {
+  word-spacing: 12px;
 }
 
 .left .box:first-child {
@@ -61,14 +66,29 @@ li {
   float: right;
   width: 50%;
   height: 100%;
+  padding: 10px;
+  font-weight: bold;
 }
 
 .ein {
   float: left;
   width: 50%;
+  height: 100%;
 }
 
 .zwei {
   float: right;
   width: 50%;
+  height: 100%;
+}
+
+.ein div:first-child,
+.zwei div:first-child {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.textbox {
+  font-size: 12px;
+  position: relative;
 }

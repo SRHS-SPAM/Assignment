@@ -62,3 +62,13 @@ li {
   width: 50%;
   height: 100%;
 }
+
+.ein {
+  float: left;
+  width: 50%;
+}
+
+.zwei {
+  float: right;
+  width: 50%;
+}

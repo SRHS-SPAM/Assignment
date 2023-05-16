@@ -55,6 +55,10 @@ body {
   margin-left: -1px;
 }
 
+.letter {
+  word-spacing: 16px;
+}
+
 .redbox {
   background-color: #ff0000;
   color: black;

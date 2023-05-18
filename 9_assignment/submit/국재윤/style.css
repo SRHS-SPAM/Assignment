@@ -30,6 +30,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 5px;
 }
 
 .stitle {
@@ -55,21 +56,64 @@ body {
 
 .left > div:nth-child(2) > li {
     border: 0.5px solid black;
-    padding: 4px 4px 4px 5px;
+    padding: 2px 2px 2px 7px;
     font-size: xx-small;
     font-weight: bold;
 }
 
 .left > div:nth-child(3) {
     grid-row: 3 / span 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-size: xx-small;
+    gap: 10px;
+    flex-direction: column;
+    padding: 0 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.subtitle {
+    margin-top: 20px;
+    font-size: large;
+    font-weight: 600;
+}
+
+.mtext {
+    margin-top: 10px;
+    font-size: xx-small;
+    white-space: nowrap;
+    font-weight: 600;
 }
 
 .left > div:nth-child(4) {
     grid-area: 1 / 2 / span 3 / span 1;
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
 }
+
 .left > div:last-child {
     display: flex;
+    flex-direction: column;
+    padding: 5px;
 }
+
+.left > div:last-child > div:first-child {
+    margin-top: 20px;
+    font-size: xx-small;
+    font-weight: bold;
+}
+
+.left > div:last-child > div:last-child {
+    margin-top: 55px;
+    font-size: x-small;
+    font-weight: bold;
+}
+
 .right {
     float: right;
     width: 50%;

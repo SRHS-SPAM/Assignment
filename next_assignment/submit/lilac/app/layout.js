@@ -48,19 +48,13 @@ function Fab() {
     <>
       <div
         className="menubar"
-        style={isIn == 1 ? { display: "inline-flex" } : { display: "none" }}
-        onMouseEnter={() => {
-          setisIn(1);
-        }}
-        onMouseLeave={() => {
-          setisIn(0);
-        }}
+        style={isIn % 2 == 1 ? { display: "inline-flex" } : { display: "none" }}
       >
         <div className="menu_top" />
         <div className="menu_bottom">
           {linkList.map((ai, i) => {
             return (
-              <Link href={ai === "main" ? "/" : "/" + ai}>
+              <Link href={ai === "main" ? "/" : "/" + ai} key={i}>
                 <div className="menu_column">{ai}</div>
               </Link>
             );
@@ -69,8 +63,9 @@ function Fab() {
       </div>
       <div
         className="fab"
-        onMouseEnter={() => {
-          setisIn(1);
+        style={isIn % 2 == 1 ? { "background-color": "#00fff2" } : {}}
+        onClick={() => {
+          setisIn(isIn + 1);
         }}
       />
     </>

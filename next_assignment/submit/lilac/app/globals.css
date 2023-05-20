@@ -125,13 +125,16 @@ body {
   bottom: 2em;
   z-index: 1;
 }
+.fab:hover {
+  background-color: aqua;
+}
 .menubar {
   position: absolute;
   right: 17.5px;
   bottom: 1em;
   flex-direction: column-reverse;
   align-items: flex-end;
-  display: none;
+  display: inline-flex;
   z-index: -1;
   background-color: whitesmoke;
 }

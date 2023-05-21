@@ -57,3 +57,4 @@ Q. 연습삼아서 회원가입기능을 만들어옵시다.
 =
 signup.jsx 파일의 소스를 signup 페이지 만들고 기능완성하기 데이터베이스는 next-check 컬렉션은 information
 알아서 ㄱ
+월요일 10시까지

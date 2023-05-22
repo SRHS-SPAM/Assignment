@@ -15,7 +15,7 @@ export default async function List() {
           </div>
         );
       })}
-      <div className="list-item" style={{ "align-items": "center" }}>
+      <div className="list-item">
         <h4>글 짓기</h4>
         <Link href={"/write"}>
           <p>{"-->"}</p>

@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
           <Link href="/button">button</Link>
           <Link href="/object">object</Link>
           <Link href="/mongo">mongo</Link>
-          <Link href="/login">Sign in</Link>
+          <Link href="/signin">Sign in</Link>
         </div>
         <Fab />
         {children}
@@ -43,7 +43,7 @@ function Arrow() {
 
 function Fab() {
   let [isIn, setisIn] = useState(0);
-  let linkList = ["object", "button", "main"];
+  let linkList = ["signin", "mongo", "object", "button", "main"];
   return (
     <>
       <div

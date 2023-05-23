@@ -3,8 +3,10 @@ import { ObjectId } from "mongodb";
 export default async function Detail(props) {
   const db = (await connectDB).db("next-check");
   try {
-    let result = await db.collection("write");
-    console.log(props).findOne({ _id: new ObjectId(props.params.default) });
+    let result = await db
+      .collection("write")
+      .findOne({ _id: new ObjectId(props.params.default) });
+    console.log(props);
     return (
       <div>
         <h4>상세페이지</h4>

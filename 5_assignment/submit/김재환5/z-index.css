@@ -1,0 +1,84 @@
+body{
+    box-sizing: border-box;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+.main_box{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.b{
+    margin: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+.box4{
+    position: absolute;
+    bottom: 25px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    background-color: rgb(58, 94, 124);
+}
+.one{
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+    background-color:red ;
+    z-index: 1;
+}
+.two{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    background-color:rgb(99, 45, 45) ;
+    z-index: 2;
+}
+.three{
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    background-color:rgb(185, 68, 68) ;
+    z-index: 3;
+}
+.four{
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    background-color:rgb(175, 42, 42) ;
+    z-index: 4;
+}
+.five{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-83%, -85%);
+    background-color:rgb(44, 6, 6) ;
+    z-index: 5;
+}
+.main_box .a:nth-child(1){
+    background-color: rgb(222, 222, 230);
+}
+.main_box .a:nth-child(2){
+    background-color: rgb(35, 52, 66);
+}
+.main_box .a:nth-child(3){
+    background-color: rgb(55, 111, 160);
+}
+.main_box .a:nth-child(5){
+    background-color: rgb(105, 132, 156);
+}
+.main_box .a:nth-child(6){
+    background-color: rgb(15, 41, 65);
+}
+.main_box .a:nth-child(7){
+    background-color: rgb(140, 162, 180);
+}

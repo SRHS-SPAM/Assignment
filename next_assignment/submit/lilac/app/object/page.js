@@ -4,7 +4,7 @@ export default function Object() {
   let ob = ["first", "second", "third"]
   let [cnt, tocnt] = useState([0, 0, 0])
   return (
-    <>
+    <div>
       {
       ob.map((ai, i)=> {
           return( 
@@ -20,6 +20,6 @@ export default function Object() {
           )
         })
       }
-    </>
+    </div>
   )
 }

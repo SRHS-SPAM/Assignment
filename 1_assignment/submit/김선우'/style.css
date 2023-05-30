@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  background-color: pink;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+}
+
+.box {
+  display: flex;
+  background-color: purple;
+  width: 600px;
+  height: 850px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.s1 {
+  border-radius: 50%;
+  background-color: white;
+  height: 150px;
+  width: 150px;
+}
+
+.s2 {
+  border-radius: 50%;
+  background-color: white;
+  height: 150px;
+  width: 150px;
+}
+
+.s3 {
+  background-color: white;
+  height: 150px;
+  width: 150px;
+}

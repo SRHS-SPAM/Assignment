@@ -4,6 +4,9 @@ import ListItem from "./ListItem";
 export default async function List() {
   const db = (await connectDB).db("next-check");
   let result = await db.collection("write").find().toArray();
+  result.map((ai, i)=>{
+    result[i]._id=`${result[i]._id}`
+})
   return (
     <>
       <ListItem result={result}/>

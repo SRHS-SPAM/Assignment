@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  background-color: white;
+}
+
+.lt {
+  display: flex;
+  justify-content: start;
+}
+
+.s1 {
+  background-color: purple;
+  height: 50%;
+  width: 50%;
+}

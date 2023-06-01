@@ -14,10 +14,15 @@ export default function ListItem({result}) {
                         <h4>{ai.title}</h4>
                     </Link>
                     <p>{ai.content}</p>
-                    <p onClick={()=>{
+                    <p onClick={(e)=>{
                         fetch("/api/post/del", {
                             method : "POST", 
                             body : ai._id
+                        }).then(()=>{
+                            e.target.parentElement.style.opacity = 0
+                            setTimeout(()=>{
+                                e.target.parentElement.style.display = "none"
+                            }, 1000)
                         })
                     }}>remove</p>
                 </div>

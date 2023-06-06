@@ -48,6 +48,25 @@ body {
   text-decoration: none;
 }
 
+.left {
+  position: fixed;
+  right: 1em;
+  top: 1.6em;
+  color: lightgray;
+  gap: 20px;
+}
+
+.left button {
+  background-color: lightgray;
+  border: #1a1a1a;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.left button:hover {
+  background-color: snow;
+}
+
 .list-bg {
   padding: 10px;
 }

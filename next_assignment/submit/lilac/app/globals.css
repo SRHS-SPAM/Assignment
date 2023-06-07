@@ -48,6 +48,25 @@ body {
   text-decoration: none;
 }
 
+.left {
+  position: fixed;
+  right: 1em;
+  top: 1.6em;
+  color: lightgray;
+  gap: 20px;
+}
+
+.left button {
+  background-color: lightgray;
+  border: #1a1a1a;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.left button:hover {
+  background-color: snow;
+}
+
 .list-bg {
   padding: 10px;
 }
@@ -57,6 +76,8 @@ body {
   padding: 20px;
   margin-bottom: 5px;
   box-shadow: rgb(224, 224, 224) 0px 2px 4px 0px;
+  opacity: 1;
+  transition: all 1s;
 }
 .list-item h4 {
   font-size: 20px;
@@ -125,13 +146,16 @@ body {
   bottom: 2em;
   z-index: 1;
 }
+.fab:hover {
+  background-color: aqua;
+}
 .menubar {
-  position: absolute;
+  position: fixed;
   right: 17.5px;
   bottom: 1em;
   flex-direction: column-reverse;
   align-items: flex-end;
-  display: none;
+  display: inline-flex;
   z-index: -1;
   background-color: whitesmoke;
 }
@@ -150,9 +174,10 @@ body {
 .menu_bottom {
   background-color: #fffdef;
   width: 130px;
-  height: 225px;
+  height: auto;
   border: 3.5px solid #286246;
   border-radius: 5px 5px 0px 5px;
+  padding-top: 18px;
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
@@ -163,6 +188,7 @@ body {
   height: 50px;
   background-color: #286246;
   display: flex;
+  cursor: pointer;
   margin-bottom: 18px;
   align-items: center;
   justify-content: center;
@@ -219,4 +245,180 @@ body {
     #286246;
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
   transform: rotate(60deg);
+}
+
+.p-20 {
+  padding: 20px;
+}
+.p-20 h4 {
+  margin-bottom: 10px;
+}
+.p-20 input {
+  box-sizing: border-box;
+  padding: 10px;
+  display: block;
+  margin-bottom: 10px;
+}
+.p-20 button {
+  padding: 10px 15px;
+  background: lightgray;
+  border: none;
+  border-radius: 5px;
+}
+
+/*------------------------------------------------*/
+.signup_main {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140vh;
+}
+
+.signup_box {
+  width: 500px;
+  height: 820px;
+  background-color: white;
+  border-radius: 80px;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup_h1 {
+  font-size: 28px;
+  margin-top: 50px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-bottom: 50px;
+  color: black;
+}
+
+.signup_stroke {
+  width: 530px;
+  height: 850px;
+  background-color: #286246;
+  border-radius: 110px;
+}
+
+.signup_id_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup_id_box input {
+  background-color: whitesmoke;
+  border: 1px solid #6a6767;
+  width: 330px;
+  height: 55px;
+  border-radius: 5px;
+  color: black;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+input::placeholder {
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.id_check {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.idsave {
+  color: white;
+  font-size: 14px;
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+#idckb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  background: #1a1a1a;
+}
+
+#idckb:checked {
+  background-color: #4197fc;
+}
+
+.signup_button {
+  width: 330px;
+  height: 50px;
+  background-color: #4197fc;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.lost {
+  cursor: pointer;
+}
+
+.signup {
+  cursor: pointer;
+}
+
+.student_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.student_info input {
+  width: 105px;
+  height: 55px;
+}
+
+.certification {
+  width: 330px;
+  justify-content: space-between;
+  display: flex;
+}
+
+#signup_cer {
+  width: 235px;
+}
+
+.cer_btn {
+  height: 55px;
+  width: 90px;
+  background-color: #4197fc;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.signup_login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 20px;
+  color: black;
+}
+
+.signup_login .sdl {
+  color: #4197fc;
+  margin-left: 10px;
+  cursor: pointer;
 }

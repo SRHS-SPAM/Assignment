@@ -43,4 +43,4 @@ https://www.youtube.com/watch?v=eprXmC_j9A4
 <br/>
 정윤환 O
 <br/>
-김민재 X
+김민재 X O

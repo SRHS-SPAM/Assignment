@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  border-radius: 5px;
+  height: 100px;
+  width: 100px;
+}
+
+.start {
+  display: flex;
+  flex-direction: row;
+  gap: 50px; /* 잘 모르겠음 */
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.end {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.start div:first-child {
+  background-color: blueviolet;
+}
+.start div:nth-child(2) {
+  background-color: red;
+}
+.start div:last-child {
+  background-color: orange;
+}
+.center div {
+  float: left;
+}
+.center div:first-child {
+  background-color: blueviolet;
+  position: absolute;
+  z-index: -1;
+}
+.center div:nth-child(2) {
+  left: 110px;
+  top: -40px;
+  background-color: yellow;
+  z-index: -2;
+}
+.center div:nth-child(3) {
+  left: 90px;
+  top: -40px;
+  background-color: red;
+  z-index: -3;
+  clear: both;
+}
+.center div:nth-child(4) {
+  left: -90px;
+  top: 40px;
+  background-color: greenyellow;
+  z-index: -5;
+}
+.center div:last-child {
+  left: -110px;
+  top: 40px;
+  background-color: skyblue;
+  z-index: -4;
+}
+.center div:nth-child(n + 2) {
+  position: relative;
+}
+.end div:first-child {
+  background-color: #ffcd28;
+}
+.end div:nth-child(2) {
+  background-color: green;
+}
+
+.end div:last-child {
+  background-color: #aff4c5;
+}

@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh; /*화면의 높이 */
+  margin: 0; /* */
+  padding: 0;
+  display: flex; /*오른쪽 정렬*/
+  justify-content: center; /* 가로 중앙배치*/
+  align-items: center; /* 세로 중앙배치*/
+  flex-direction: column;
+  font-size: 14px;
+  font-family: Apple SD Gothic Neo, arial, sans-serif;
+  color: #202124;
+}
+
+.icon {
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gb_g {
+  padding: 8px;
+  height: 40px;
+  width: 40px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px;
+}
+
+text:first-of-type {
+  margin-left: 15px;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin: 0 5px;
+  color: #202124;
+}
+
+.left {
+  display: flex;
+}
+.right {
+  padding: 0 4px 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.login {
+  color: white;
+  background: #1a73e8;
+  border-radius: 4px;
+  text-align: center;
+  justify-content: center;
+  height: 40px;
+  width: 96px;
+  padding: 9px 23px;
+  margin-right: 8px;
+  margin-left: 10px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.center {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.serch {
+  border: 1px solid #dfe1e5;
+  width: 500px;
+  height: 44px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.inner {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 8px 0 14px;
+}
+
+.one {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+  height: 46px;
+}
+
+.two {
+  display: flex;
+  flex: 0 0 auto;
+  margin-top: -5px;
+  align-items: center;
+  flex-direction: row;
+  height: 44px;
+  gap: 20px;
+}
+
+.goxjub {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+}
+
+.Gdd5U {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+}
+
+.zwei {
+  display: flex;
+}
+
+.box {
+  display: flex;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: Apple SD Gothic Neo, arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.drei {
+  font-family: Apple SD Gothic Neo, arial, sans-serif;
+  font-size: 10px;
+  margin: 11px;
+}
+
+.footer {
+  background-color: #f2f2f2;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.up {
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  color: #70757a;
+}
+
+.down {
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+.eins {
+  display: flex;
+}
+
+.zweis {
+  display: flex;
+}
+
+.word {
+  color: #70757a;
+  display: block;
+  padding: 15px;
+  cursor: pointer;
+}

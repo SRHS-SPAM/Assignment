@@ -7,7 +7,7 @@ export default async function List() {
   const db = (await connectDB).db("next-check");
   let result = await db.collection("write").find().toArray();
   let session = await getServerSession(authOptions);
-  let email;
+  let rules, email;
   if(session) {
     rules=session.user.rules;
     email=session.user.email;

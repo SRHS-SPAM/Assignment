@@ -1,0 +1,78 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.A {
+    position: absolute;
+    top: 50%;
+    margin: 100px 0 0 -300px;
+    left: 50%;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    line-height: 200px;
+    box-shadow: 5px 5px 30px;
+    font-size: 2em;
+}
+.a {
+    width: 300px;
+    height: 200px;
+    background-color: whitesmoke;
+    color: rgb(250, 69, 1);
+    text-align: center;
+}
+.b {
+    width: 300px;
+    height: 200px;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+.c {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(250, 69, 1);
+    color: white;
+    text-align: center;
+}
+.d {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.da {
+    width: 150px;
+    height: 100px;
+    background-color: rgb(253, 182, 193);
+    color: rgb(250, 69, 1);
+    text-align: center;
+    line-height: 100px;
+}
+.db {
+    width: 150px;
+    height: 100px;
+    background-color: rgb(147, 112, 219);
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+.dc {
+    width: 150px;
+    height: 100px;
+    background-color: rgb(249, 165, 2);
+    color: rgb(250, 69, 1);
+    text-align: center;
+    line-height: 100px;
+}
+.dd {
+    width: 150px;
+    height: 100px;
+    background-color: rgb(250, 128, 113);
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}

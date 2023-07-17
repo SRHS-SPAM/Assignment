@@ -1,0 +1,100 @@
+body {
+    position: absolute;
+    top: 50vh;
+    margin-top: -40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.a {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(141, 76, 246);
+    border-radius: 5px;
+}
+.b {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(223, 85, 52);
+    border-radius: 5px;
+}
+.c {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(243, 170, 72);
+    border-radius: 5px;
+}
+.d {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(141, 76, 246);
+    z-index: 9999;
+}
+.D {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -10px;
+    margin-left: -10px;
+}
+.da {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(247, 207, 80);
+    border-radius: 5px;
+    z-index: 98;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.db {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(223, 85, 52);
+    border-radius: 5px;
+    z-index: 97;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+.dc {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(190, 242, 201);
+    border-radius: 5px;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+.dd {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(69, 151, 248);
+    border-radius: 5px;
+    z-index: 96;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+.e {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(247, 207, 80);
+    border-radius: 5px;
+}
+.f {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(80, 171, 100);
+    border-radius: 5px;
+}
+.g {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(190, 242, 201);
+    border-radius: 5px;
+}

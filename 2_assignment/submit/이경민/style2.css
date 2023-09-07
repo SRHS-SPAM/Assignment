@@ -1,0 +1,48 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: white;
+  height: 100vh;
+  display: flex;
+}
+
+.back {
+  background-color: white;
+  width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.box_1 {
+  background-color: purple;
+  width: 140px;
+  height: 40px;
+  gap: 40px;
+}
+.box_12 {
+  background-color: purple;
+  width: 140px;
+  height: 40px;
+  gap: 40px;
+}
+.box_123 {
+  background-color: purple;
+  width: 140px;
+  height: 40px;
+  gap: 40px;
+}
+.box_1234 {
+  background-color: purple;
+  width: 140px;
+  height: 40px;
+  gap: 40px;
+}
+.box_12345 {
+  background-color: purple;
+  width: 140px;
+  height: 40px;
+  gap: 40px;
+}

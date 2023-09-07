@@ -1,0 +1,100 @@
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.c {
+  background-color: wheat;
+  width: 800px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.a1 {
+  background-color: rgb(255, 255, 217);
+  width: 400px;
+  height: 250px;
+  font-size: 50px;
+  font-weight: bold;
+  color: orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a2 {
+  background-color: green;
+  width: 400px;
+  height: 250px;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a3 {
+  background-color: orangered;
+  width: 400px;
+  height: 250px;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.b1 {
+  display: flex;
+  background-color: gray;
+  width: 400px;
+  height: 250px;
+  flex-wrap: wrap;
+}
+.a4 {
+  background-color: pink;
+  width: 200px;
+  height: 125px;
+  font-size: 20px;
+  font-weight: bold;
+  color: orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a5 {
+  background-color: blueviolet;
+  width: 200px;
+  height: 125px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a6 {
+  background-color: orange;
+  width: 200px;
+  height: 125px;
+  font-size: 20px;
+  font-weight: bold;
+  color: orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a7 {
+  background-color: rgb(255, 133, 133);
+  width: 200px;
+  height: 125px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

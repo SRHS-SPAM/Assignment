@@ -14,6 +14,11 @@ image 파일
 아이콘은 fontawesome 사용
 fontawesome 사용법은 구글링
 
+//<script
+      src="https://kit.fontawesome.com/d14b90dc01.js"
+      crossorigin="anonymous"
+    ></script>
+
 국재윤 O ★★★★★
 <br/>
 정윤환 O ★★★★☆

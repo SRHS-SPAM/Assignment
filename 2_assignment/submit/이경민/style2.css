@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  padding: 20px;
+  margin: 0;
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+}
+
+.back {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.cool {
+  display: flex;
+  gap: 40px;
+}
+
+.cool2 {
+  display: flex;
+  gap: 40px;
+}
+
+.box_1 {
+  background-color: blueviolet;
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+}
+.rbox {
+  background-color: red;
+  height: 70px;
+  border-radius: 5px;
+}
+.box_12 {
+  background-color: blueviolet;
+  width: 300px;
+  height: 160px;
+  border-radius: 5px;
+}
+.box_123 {
+  background-color: blueviolet;
+  width: 400px;
+  height: 40px;
+  border-radius: 5px;
+}

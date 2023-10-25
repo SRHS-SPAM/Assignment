@@ -1,0 +1,286 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 10px;
+}
+
+.mainbox {
+  border: 2px solid black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 0;
+}
+.leftbox {
+  float: left;
+  width: 100%;
+}
+
+.rightbox {
+  float: right;
+  width: 100%;
+  height: 100%;
+}
+
+.r_box1 {
+  display: grid;
+  grid-template-rows: 80% 20%;
+  height: 100%;
+}
+
+.r_top1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.bluebox {
+  border: 1px solid black;
+  background-color: blue;
+  height: 100%;
+  width: 100%;
+}
+
+.r_top2 {
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+
+.purplebox {
+  border: 1px solid black;
+  background-color: blueviolet;
+  height: 100%;
+  width: 100%;
+}
+
+.r_top3 {
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+
+.r_top4 {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.orangebox {
+  border: 1px solid black;
+  background-color: #ff7f4f;
+  height: 100%;
+  width: 100%;
+}
+
+.r_top6 {
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+
+.yellowbox {
+  border: 1px solid black;
+  background-color: #f0e58c;
+  height: 100%;
+  width: 100%;
+}
+
+.magentabox {
+  border: 1px solid black;
+  background-color: #ba55d4;
+  height: 100%;
+  width: 100%;
+}
+
+.r_top5 {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.greenbox {
+  border: 1px solid black;
+  background-color: #008080;
+  height: 100%;
+  width: 100%;
+}
+
+.pinkbox {
+  border: 1px solid black;
+  background-color: #ee82ee;
+  height: 100%;
+  width: 100%;
+}
+
+.r_bot1 {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.grapebox {
+  border: 1px solid black;
+  background-color: #4b0083;
+  height: 100%;
+  width: 100%;
+}
+
+.r_bot2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.bcolor1 {
+  border: 1px solid black;
+  background-color: #f5dfb3;
+  height: 100%;
+  width: 100%;
+}
+
+.r_bot3 {
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+
+.bcolor2 {
+  border: 1px solid black;
+  background-color: #dda0dd;
+  height: 100%;
+  width: 100%;
+}
+
+.bcolor3 {
+  border: 1px solid black;
+  background-color: #f08080;
+  height: 100%;
+  width: 100%;
+}
+
+.leftbox {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.r_textbox {
+  display: grid;
+  grid-template-rows: 80% 20%;
+}
+
+.r_subtextbox {
+  height: 100%;
+  border: 1px solid black;
+}
+
+.r_subtextbox {
+  padding: 10px;
+}
+
+.r_subtextbox1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 40px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.r_textbox1 {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.r_textbox2 {
+  font-size: x-large;
+  position: relative;
+  top: 25px;
+  font-weight: 545;
+  font-weight: bold;
+}
+
+.r_textbox3 {
+  position: relative;
+  top: 50px;
+  font-size: 9px;
+  font-weight: bold;
+}
+
+.service {
+  font-size: x-small;
+  font-weight: bold;
+}
+
+.every {
+  font-weight: bold;
+}
+
+.l_textbox {
+  display: grid;
+  height: 100%;
+}
+
+.l_subtextbox {
+  display: grid;
+  grid-template-rows: 6% 7% 40% 1fr;
+  border: 1px solid black;
+  font-size: 20px;
+}
+
+.l_textbox1 {
+  font-size: 10px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0;
+}
+
+.l_textbox2 {
+  padding: 10px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.l_subbox {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  height: 40%;
+  position: relative;
+  top: 20px;
+  border: 1px 0px 1px 0px solid black;
+}
+
+.text {
+  border: 0.5px solid black;
+  font-size: small;
+  font-weight: bold;
+  padding: 4px 4px 4px 5px;
+  display: flex;
+  align-items: center;
+}
+
+.back {
+  background-color: #d3d3d3;
+}
+
+.t_top {
+  border-top: 1px solid black;
+}
+
+.t_bottom {
+  border-bottom: 1px solid black;
+}
+
+.mel {
+  font-weight: 700;
+  font-size: x-small;
+}
+
+.ser {
+  font-size: x-small;
+}
+
+.l_subtextbox1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0 0 0 10px;
+  justify-content: flex-end;
+}

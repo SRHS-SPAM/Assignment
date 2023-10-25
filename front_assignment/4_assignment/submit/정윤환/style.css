@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  font-size: 14px;
+  font-family: Apple SD Gothic Neo, arial, sans-serif;
+}
+
+.con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+header {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.info {
+  padding: 5px;
+  margin: 0 5px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.img1 {
+  text-align: center;
+  margin-top: 140px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 584px;
+  height: 48px;
+  border-radius: 25px;
+  padding: 15px;
+  border: 1px solid #dfe1e5;
+}
+
+.fa-regular {
+  display: flex;
+}
+
+.search_sub {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 40px;
+  background-color: whitesmoke;
+  padding: 0px 20px 0px 20px;
+  border-radius: 5px;
+}
+
+.info5 {
+  display: flex;
+  width: 110px;
+  height: 40px;
+  background-color: #3f7ce0;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.icon1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  bottom: 0;
+}
+
+.foot1 {
+  display: flex;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #dadce0;
+}
+
+.foot2 {
+  display: flex;
+  background-color: #f2f2f2;
+  justify-content: space-between;
+}
+
+.ftext1 {
+  padding: 20px;
+  justify-content: space-between;
+  color: #70757a;
+}
+
+.subtxt {
+  padding: 20px;
+  justify-content: space-between;
+  color: #70757a;
+}

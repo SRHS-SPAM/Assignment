@@ -1,28 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>pn 스팸 과제</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="o1">Ostrich</div>
-      <div class="o2">Ostrich31</div>
-      <div class="o3">Ostrich</div>
-      <div class="subcontainer">
-        <div class="o4">Ostrich</div>
-        <div class="o5">Ostrich</div>
-        <div class="o6">Ostrich1</div>
-        <div class="o7">Ostrich</div>
-      </div>
-    </div>
-  </body>
-</html>
-
-
 * {
   box-sizing: border-box;
 }

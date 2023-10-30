@@ -1,0 +1,36 @@
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.box {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.number_box {
+  height: 120px;
+  width: 180px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 25%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 50px;
+}
+
+.enable_box {
+  background-color: rgba(0, 13, 255, 50%);
+}
+
+.complete_box {
+  background-color: rgba(0, 255, 100, 80%);
+}

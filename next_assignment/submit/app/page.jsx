@@ -1,11 +1,10 @@
-import Image from "next/image";
 import Link from "next/link";
 import styles from "./page.module.css";
 
 export default function Home() {
   const nameList = [
     { name: "지민철", url: "/" },
-    { name: "김도원", url: "/" },
+    { name: "김도원", url: "/dnjeh" },
   ];
   return (
     <main>

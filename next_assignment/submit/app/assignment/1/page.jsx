@@ -70,7 +70,7 @@ export default function assignment() {
                     {/*댓글 시작 부분*/}
                     <div className={styles.write_d_reply}>
                       <div className={styles.write_d_reply_left}>
-                        <img src="/images/profile.png" alt />
+                        <img src="/images/profile.png"/>
                       </div>
                       <div className={styles.write_d_reply_right}>
                         <div className={styles.write_d_reply_username}>
@@ -88,7 +88,7 @@ export default function assignment() {
                     <div className={styles.write_d_comment}>
                       <div className={styles.write_d_reply}>
                         <div className={styles.write_d_reply_left}>
-                          <img src="/images/profile.png" alt />
+                          <img src="/images/profile.png"/>
                         </div>
                         <div className={styles.write_d_reply_right}>
                           <div className={styles.write_d_reply_username}>
@@ -105,7 +105,7 @@ export default function assignment() {
                     </div>
                     <div className={styles.write_d_reply}>
                       <div className={styles.write_d_reply_left}>
-                        <img src="/images/profile.png" alt />
+                        <img src="/images/profile.png"/>
                       </div>
                       <div className={styles.write_d_reply_right}>
                         <div className={styles.write_d_reply_username}>
@@ -123,7 +123,7 @@ export default function assignment() {
                     </div>
                     <div className={styles.write_d_reply}>
                       <div className={styles.write_d_reply_left}>
-                        <img src="/images/profile.png" alt />
+                        <img src="/images/profile.png"/>
                       </div>
                       <div className={styles.write_d_reply_right}>
                         <div className={styles.write_d_reply_username}>
@@ -143,7 +143,7 @@ export default function assignment() {
                     </div>
                     <div className={styles.write_d_reply}>
                       <div className={styles.write_d_reply_left}>
-                        <img src="/images/profile.png" alt />
+                        <img src="/images/profile.png"/>
                       </div>
                       <div className={styles.write_d_reply_right}>
                         <div className={styles.write_d_reply_username}>

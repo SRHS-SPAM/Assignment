@@ -139,11 +139,16 @@
   border-bottom: 0.1rem solid black;
 }
 
-.write_d_thumbs_up {
+.write_d_write_info > * {
   display: flex;
   font-size: 1rem;
   gap: 0.5rem;
 }
+/*.write_d_thumbs_up {
+  display: flex;
+  font-size: 1rem;
+  gap: 0.5rem;
+}*/
 
 .write_d_reply_top {
   padding: 1rem;

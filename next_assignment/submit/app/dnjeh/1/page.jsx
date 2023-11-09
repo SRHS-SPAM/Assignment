@@ -1,5 +1,8 @@
 import Link from 'next/link';
 import styles from './page.module.css';
+import Comment from "./svg/comment.svg";
+import ThumbsUp from "./svg/thumbsUp.svg";
+import ThumbsDown from "./svg/thumbsDown.svg";
 export default function Page() {
   return (
     <div>
@@ -38,15 +41,15 @@ export default function Page() {
               </div>
               <div className={styles.write_d_write_info}>
                 <div className={styles.write_d_thumbs_up}>
-                  <i className="fa-regular fa-thumbs-up" />
+                  <ThumbsUp/>
                   추천 57
                 </div>
                 <div className={styles.write_d_thumbs_down}>
-                  <i className="fa-regular fa-thumbs-down" />
+                  <ThumbsDown/> {/*신기하게도 앞글자가 소문자면 안 됨*/} 
                   비추천 1
                 </div>
                 <div className={styles.write_d_reply_count}>
-                  <i className="fa-regular fa-comment" />
+                  <Comment/>
                   댓글 5
                 </div>
               </div>
@@ -63,7 +66,7 @@ export default function Page() {
                     {/*댓글 시작 부분*/}
                     <div className={styles.write_d_reply}>
                       <div className={styles.write_d_reply_left}>
-                        <img src="/images/profile.png" alt />
+                        <img src="/images/profile.png"/>
                       </div>
                       <div className={styles.write_d_reply_right}>
                         <div className={styles.write_d_reply_username}>돌하르방</div>
@@ -77,7 +80,7 @@ export default function Page() {
                     <div className={styles.write_d_comment}>
                       <div className={styles.write_d_reply}>
                         <div className={styles.write_d_reply_left}>
-                          <img src="/images/profile.png" alt />
+                          <img src="/images/profile.png"/>
                         </div>
                         <div className={styles.write_d_reply_right}>
                           <div className={styles.write_d_reply_username}>
@@ -94,7 +97,7 @@ export default function Page() {
                     </div>
                     <div className={styles.write_d_reply}>
                       <div className={styles.write_d_reply_left}>
-                        <img src="/images/profile.png" alt />
+                        <img src="/images/profile.png"/>
                       </div>
                       <div className={styles.write_d_reply_right}>
                         <div className={styles.write_d_reply_username}>
@@ -112,7 +115,7 @@ export default function Page() {
                     </div>
                     <div className={styles.write_d_reply}>
                       <div className={styles.write_d_reply_left}>
-                        <img src="/images/profile.png" alt />
+                        <img src="/images/profile.png"/>
                       </div>
                       <div className={styles.write_d_reply_right}>
                         <div className={styles.write_d_reply_username}>
@@ -132,7 +135,7 @@ export default function Page() {
                     </div>
                     <div className={styles.write_d_reply}>
                       <div className={styles.write_d_reply_left}>
-                        <img src="/images/profile.png" alt />
+                        <img src="/images/profile.png"/>
                       </div>
                       <div className={styles.write_d_reply_right}>
                         <div className={styles.write_d_reply_username}>장미새</div>

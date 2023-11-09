@@ -2,7 +2,7 @@ import Link from "next/link";
 import styles from "./main.module.css";
 
 export default function Main(props) {
-  let enable = 1;
+  let enable = 2;
 
   const numberList = [
     [1, 2, 3, 4, 5],

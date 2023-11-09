@@ -1,15 +1,15 @@
 import Main from "/components/Main";
 
 export default function Page() {
-    /**
-     * @notice you can edit only this
-     */
-    let url = "dnjeh";
+  /**
+   * @notice you can edit only this
+   */
+  let url = "dnjeh";
 
-    let complete = 0;
-    return (
-        <>
-            <Main complete={complete} url={url}></Main>
-        </>
-    );
+  let complete = 1;
+  return (
+    <>
+      <Main complete={complete} url={url}></Main>
+    </>
+  );
 }

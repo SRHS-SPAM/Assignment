@@ -6,7 +6,7 @@ export default function Page() {
    */
   let url = "dnjeh";
 
-  let complete = 1;
+  let complete = 2;
   return (
     <>
       <Main complete={complete} url={url}></Main>

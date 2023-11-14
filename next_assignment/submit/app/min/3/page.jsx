@@ -1,5 +1,6 @@
+"use client";
 import style from "./page.module.css";
-
+import Col from "./Col";
 const chess = [
     ["♜", "♞", "♝", "♛", "♚", "♝", "♞", "♜"],
     ["♟", "♟", "♟", "♟", "♟", "♟", "♟", "♟"],
@@ -19,20 +20,12 @@ export default function Chessboard() {
                     <div key={rowIndex} className={style.row}>
                         {row
                             .map((piece, colIndex) => (
-                                <div
+                                <Col
                                     key={colIndex}
-                                    className={`${style.col} ${
-                                        rowIndex % 2 === 0
-                                            ? colIndex % 2 === 1
-                                                ? style.even
-                                                : style.odd
-                                            : colIndex % 2 === 0
-                                            ? style.even
-                                            : style.odd
-                                    }`}
-                                >
-                                    {piece}
-                                </div>
+                                    colIndex={colIndex}
+                                    rowIndex={rowIndex}
+                                    piece={piece}
+                                />
                             ))
                             .reverse()}
                     </div>

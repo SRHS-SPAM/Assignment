@@ -1,8 +1,5 @@
 body {
-  box-sizing: border-box;
-  margin: 0;
   background-color: gray;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,31 +8,20 @@ body {
 .back {
   background-color: white;
   width: 500px;
-  height: 500px;
+  height: 680px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  gap: 50px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.first,
+.third {
+  background-color: blueviolet;
+  width: 150px;
+  height: 150px;
 }
 
 .first {
-  background-color: purple;
-  width: 100px;
-  height: 100px;
   border-radius: 50%;
-}
-
-.second {
-  background-color: purple;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  .ba;
-}
-
-.third {
-  background-color: purple;
-  width: 100px;
-  height: 100px;
 }

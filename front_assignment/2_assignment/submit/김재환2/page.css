@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+}
+.body {
+  height: 95vh;
+  border: 2px solid black;
+  margin: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+.left_manue {
+  margin: 10px;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+}
+.l {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(48, 88, 88);
+  margin: 10px;
+  border-radius: 4px;
+  border: 2px solid wheat;
+}
+.redbox {
+  width: 100px;
+  height: 20px;
+  background-color: aqua;
+  left: 100px;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.right_manue {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  margin: 10px;
+  display: flex;
+}
+.r {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(48, 88, 88);
+  margin: 10px;
+  border-radius: 4px;
+  border: 2px solid wheat;
+}
+.middle_box {
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+  margin: 20px;
+  width: 500px;
+  height: 300px;
+  background-color: aqua;
+  border-radius: 4px;
+  border: 2px solid wheat;
+  background-color: rgb(48, 88, 88);
+}
+.foot {
+  position: absolute;
+  bottom: 0px;
+  margin: 20px;
+  width: 500px;
+  height: 30px;
+  border-radius: 4px;
+  border: 2px solid wheat;
+  background-color: rgb(48, 88, 88);
+}

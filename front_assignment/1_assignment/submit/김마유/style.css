@@ -1,0 +1,44 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: gray;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back {
+    width: 500px;
+    height: 600px;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 50px;
+}
+
+.c1 {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+
+.c2 {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+
+.r1 {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}

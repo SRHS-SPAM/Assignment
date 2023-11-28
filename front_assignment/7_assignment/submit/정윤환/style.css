@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.mainbox {
+  position: relative;
+  top: 80px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 800px;
+  height: 500px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.leftbox {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.leftbox li {
+  line-height: 25px;
+}
+
+.space {
+  width: 20px;
+  height: 10px;
+}
+
+.blackbox {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  font-size: 23px;
+}
+
+.purplebox {
+  background-color: #7b69ed;
+}
+
+.em {
+  background-color: #7b69ed;
+  background-size: auto;
+  font-style: normal;
+  padding: 1px;
+  margin-left: -1px;
+}
+
+.letter {
+  word-spacing: 16px;
+}
+
+.redbox {
+  background-color: #ff0000;
+  color: black;
+  padding: 5px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.yellowbox {
+  background-color: #ffd703;
+  color: black;
+  padding: 5px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.rightbox {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.textbox {
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.textmain {
+  font-size: 10px;
+}
+
+.textsub {
+  position: relative;
+  top: 10px;
+  font-size: 12px;
+}

@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.s1 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: blueviolet;
+}
+
+.s2 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: blueviolet;
+}
+
+.s3 {
+  width: 80px;
+  height: 80px;
+  background-color: blueviolet;
+  /* 위와의 차이점은 테두리 모깍기 X */
+}
+.box {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aquamarine;
+  gap: 40px;
+}

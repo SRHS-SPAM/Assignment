@@ -1,0 +1,36 @@
+.up_box {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.announcement {
+  height: 150px;
+  width: 800px;
+  background-color: rgba(0, 255, 72, 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  font-size: 60px;
+}
+
+.down_box {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name_box {
+  height: 120px;
+  width: 160px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+  font-size: 35px;
+}

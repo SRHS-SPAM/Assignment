@@ -12,7 +12,7 @@ body {
 
 .back {
     width: 500px;
-    height: 600px;
+    height: 700px;
     background-color: white;
 
     display: flex;
@@ -24,21 +24,21 @@ body {
 }
 
 .c1 {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background-color: blueviolet;
     border-radius: 50%;
 }
 
 .c2 {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background-color: blueviolet;
     border-radius: 50%;
 }
 
 .r1 {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background-color: blueviolet;
 }

@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+
+    body {
+        display: flex; /*레이아웃 설정*/
+        flex-direction: column;/*글 여러줄이 쌓이는 방향대로*/
+        height: 100vh;/*요소의 세로크기 정의*/
+        margin: 20px;/*보더와 요소사이의 간격 20*/
+        padding: 10px;/*내용과 테두리사이의 간격10*/
+        display: flex
+    }
+
+    .container {
+        display: flex;/*레이아웃 설정*/
+        flex-direction: row;/*한 줄의 글을 작성하는 방향대로*/
+        gap: 40px; /*상하좌우40*/
+        position: relative;/*요소를 어디에 배치할 것인지*/
+    }
+
+    .section{
+        display: flex;/*레이아웃설정*/
+        gap: 40px;/*상하좌우 40의 간격을 둠*/
+    }
+
+    .section2 {
+        display: flex;/*레이아웃 설정*/
+        gap: 40px;/*상하좌우 40의 간격을 둠*/
+    }
+
+    .a{
+        display: flex;/*레이아웃 설정*/
+        width: 190px;/*가로길이*/
+        height: 55px;/*세로길이*/
+        border-radius: 5px; /*모서리 둥글게*/
+        top: 40px;/*상단을 기준으로 얼마나 밑에 위치시킬건지*/
+        justify-content: space-between;/*가로선상에서 양끝에배치*/
+        align-items: center;/*세로선상에서 가운데 배치*/
+        z-index: 1;/*뒤에 깔린걸 끌여올려주는 인덱스 (우선순위:1)*/
+        background-color: rgb(164, 98, 226); /*색깔설정*/
+        border: 5px solid blueviolet;/*보더에 5만한 테두리를 두고 테두리 색갈을 블루바이올렛으로 설정*/
+    }
+
+    .b1 {
+        position: absolute;/*이건 찾아봐도 잘 모르겠어요..*/
+        width: 190px;/*가로길이 190*/
+        height: 55px;/*세로길이 55*/
+        top: 30px;/*상단을 기준으로 30떨어짐*/
+        border-radius: 5px;/*테두리 5모깎기*/
+        z-index: 0;/*뒤에 깔린걸 끌여올려주는 인덱스*/
+        background-color: orangered;/*색깔지정*/
+        border: 5px solid rgb(180, 48, 0);/*5크기의 테두리 설정 그리고 테두리 색 설정*/
+    }
+    .mania{
+        position: relative;/*원래 위치를 기준으로 요소를 어디에 배치할 것인지*/
+        width: 500px;/*가로500*/
+        height: 300px;/*세로300*/
+        border-radius: 5px;/*테두리 모깍기 5*/
+        top: 300px;/*위에서부터 300만큼 떨어짐*/
+        z-index: 1;/*뒤에 깔린 요소를 끌어와주는역할 (우선순위:1)*/
+        background-color: rgb(164, 98, 226);/*색깔설정*/
+        border: 5px solid blueviolet;/*5만큼의 테두리를 만들고 그 테두리 색을 지정*/
+    }
+
+    .suba{
+        position: relative;/*원래 위치 기준**요소를 어디에 배치할 것인지*/
+        width: 800px;/*가로800*/
+        height: 75px;/*세로75*/
+        border-radius: 5px;/*5만큼 모깎기*/
+        top: 500px;/*맨 위에서 500만큼 떨어짐*/
+        z-index: 1;/*뒤에 깔린걸 끌어와주는 역할*/
+        background-color: rgb(164, 98, 226);/*색깔설정*/
+        border: 5px solid blueviolet;/*5만큼의 테두리 만들고 테두리의 색을 지정~~~*/
+    }

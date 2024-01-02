@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    height: 60%;
+    width: 70%;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.4), -20px -20px 50px floralwhite;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.box:nth-child(1) {
+    background-color: beige;
+    color: orange;
+}
+
+.box:nth-child(2) {
+    background-color: green;
+    color: white;
+}
+
+.box:nth-child(3) {
+    background-color: red;
+    color: white;
+}
+
+.box:nth-child(4) {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: small;
+    font-weight: bold;
+}
+
+.box2:nth-child(1) {
+    background-color: pink;
+    color: red;
+}
+
+.box2:nth-child(2) {
+    background-color: purple;
+    color: white;
+}
+
+.box2:nth-child(3) {
+    background-color: orange;
+    color: red;
+}
+
+.box2:nth-child(4) {
+    background-color: pink;
+    color: white;
+}

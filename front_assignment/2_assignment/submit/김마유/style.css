@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box; /*요소 크기를 테두리를 기준으로 정하기*/
+}
+
+body {
+    display: flex; /*Flexbox 만들기*/
+    flex-direction: column; /*수직 정렬*/
+    height: 100vh;
+    margin: 20px; /*요소 주위에 공간 만들기*/
+    padding: 10px; /*요소와 컨텐츠 사이에 공간 만들기(요소 내부)*/
+}
+
+.container {
+    display: flex; /*Flexbox 만들기*/
+    flex-direction: row; /*병렬 정렬*/
+    gap: 40px; /*행과 열 간격 크기 지정*/
+    position: relative; /*위치를 원래 위치 기준으로 변경*/
+}
+
+.section {
+    display: flex; /*Flexbox 만들기*/
+    gap: 40px; /*행과 열 간격 크기 지정*/
+}
+
+.section2 {
+    display: flex; /*Flexbox 만들기*/
+    gap: 40px; /*행과 열 간격 크기 지정*/
+}
+
+.a {
+    display: flex; /*Flexbox 만들기*/
+    width: 190px;
+    height: 55px;
+    border-radius: 5px; /*모깎기*/
+    top: 40px; /*위쪽 간격 크기 지정*/
+    justify-content: space-between; /*요소 사이에 동일한 간격 주기*/
+    align-items: center; /*가운데 배치*/
+    z-index: 1; /*쌓임 순서 지정*/
+    background-color: rgb(164, 98, 226);
+    border: 5px solid blueviolet; /*테두리 설정*/
+}
+
+.b1 {
+    position: absolute; /*위치를 페이지 기준으로 변경*/
+    width: 190px;
+    height: 55px;
+    top: 30px; /*위쪽 간격 크기 지정*/
+    border-radius: 5px; /*모깎기*/
+    z-index: 0; /*쌓임 순서 지정*/
+    background-color: orangered;
+    border: 5px solid rgb(180, 48, 0); /*테두리 설정*/
+}
+.mania {
+    position: relative; /*위치를 원래 위치 기준으로 변경*/
+    width: 500px;
+    height: 300px;
+    border-radius: 5px; /*모깎기*/
+    top: 300px; /*위쪽 간격 크기 지정*/
+    z-index: 1; /*쌓임 순서 지정*/
+    background-color: rgb(164, 98, 226);
+    border: 5px solid blueviolet; /*테두리 설정*/
+}
+
+.suba {
+    position: relative; /*위치를 원래 위치 기준으로 변경*/
+    width: 800px;
+    height: 75px;
+    border-radius: 5px; /*모깎기*/
+    top: 500px; /*위쪽 간격 크기 지정*/
+    z-index: 1; /*쌓임 순서 지정*/
+    background-color: rgb(164, 98, 226);
+    border: 5px solid blueviolet; /*테두리 설정*/
+}

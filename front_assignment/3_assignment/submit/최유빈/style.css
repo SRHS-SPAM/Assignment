@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    height: 100vh;
+    margin:0;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr ; /*가로가로 일대일 세로세로 일대일*/
+    height: 60%;/*크기 가로*/
+    width: 70%;/*가로 길이*/
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.4), -20px -20px 50px floralwhite;
+}
+
+
+.color1{
+    display: flex;
+    justify-content: center;/*가로*/
+    align-items: center;/*세로*/
+    font-size: x-large;
+    font-weight: bold;
+    background-color: #f5f5dc;
+    color:#fa4501;
+    
+}
+
+.color2{
+    display: flex;
+    justify-content: center;/*가로*/
+    align-items: center;/*세로*/
+    font-size: x-large;
+    font-weight: bold;
+    background-color: #d240dc;
+    color:#485be7;
+    
+
+}
+
+.color3{
+    display: flex;
+    justify-content: center;/*가로*/
+    align-items: center;/*세로*/
+    font-size: x-large;
+    font-weight: bold;
+    background-color: #f4f447;
+    color:#93fd55;
+}
+
+.color4{
+    display: flex;
+    justify-content: center;/*가로*/
+    align-items: center;/*세로*/
+    font-size: x-large;
+    font-weight: bold;
+    background-color: #feb94a;
+    color:#a955fd;
+    
+}
+
+.color5{
+    display: flex;
+    justify-content: center;/*가로*/
+    align-items: center;/*세로*/
+    font-size: x-large;
+    font-weight: bold;
+    background-color: #fdec99;
+    color:#ff3700;
+}
+
+.color6{
+    display: flex;
+    justify-content: center;/*가로*/
+    align-items: center;/*세로*/
+    font-size: x-large;
+    font-weight: bold;
+    background-color: #7df9f7;
+    color:#ffa6b2;
+}
+
+.color7{
+    display: flex;
+    justify-content: center;/*가로*/
+    align-items: center;/*세로*/
+    font-size: x-large;
+    font-weight: bold;
+    background-color: #e0ff98;
+    color:#0059ff;
+}
+
+
+
+.smallbox{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+
+    
+}

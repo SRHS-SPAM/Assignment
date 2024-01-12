@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    height: 100vh;
+    margin:0;
+    justify-content: center;
+    align-items: center;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 510px;
+    box-shadow: 5px 5px 50px 5px gray;
+}
+
+.left{
+    display: flex;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.right{
+    display: flex;
+    width: 400px;
+    height: 510px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    
+}
+
+.color1{
+    display: flex;
+    width: 200px;
+    height: 170px;
+    background-color: black;
+    color: white;
+}
+
+.color2{
+    display: flex;
+    width: 200px;
+    height: 170px;
+    background-color: blueviolet;
+}
+
+.color3{
+    width: 200px;
+    height: 340px;
+    background-color: red;
+}
+
+.color4{
+    width: 200px;
+    height: 170px;
+}
+
+.color5{
+    display: flex;
+    width: 200px;
+    height: 170px;
+    background-color: yellow;
+    position: relative;
+    top: -170px;
+    left: 200px;
+}
+
+
+.speakers{
+    width: 200px;
+    height: 20px;
+    font-size: 10px;
+}
+
+.artists {
+    width: 190px;
+    height: 20px;
+    font-size: 10px;
+}
+
+.Left {
+    width: 200px;
+    height: 480px;
+    font-size: 12.9px;
+}
+
+.right {
+    width: 190px;
+    height: 480px;
+    font-size: 12.9px;
+}
+
+.bill {
+    width: 114px;
+    height: 18px;
+    background-color: blueviolet;
+    position: absolute;
+    z-index: -1;
+    left: 773px;
+    top: 230px;
+}

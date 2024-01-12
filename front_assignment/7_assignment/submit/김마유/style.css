@@ -27,13 +27,15 @@ li {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    font-weight: bold;
+    font-weight: 400;
+    font-size: large;
 }
+
 .box {
     padding: 10px;
 }
 
-.side {
+.end {
     word-spacing: 12px;
 }
 
@@ -43,6 +45,8 @@ li {
 .left .box:first-child li {
     background-color: black;
     color: white;
+    font-size: x-large;
+    line-height: 22px;
 }
 
 .left .box:nth-child(2) {
@@ -70,20 +74,20 @@ li {
     font-weight: bold;
 }
 
-.ein {
+.lt {
     float: left;
     width: 50%;
     height: 100%;
 }
 
-.zwei {
+.rt {
     float: right;
     width: 50%;
     height: 100%;
 }
 
-.ein div:first-child,
-.zwei div:first-child {
+.lt div:first-child,
+.rt div:first-child {
     font-size: 10px;
     margin-bottom: 10px;
 }

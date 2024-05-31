@@ -48,7 +48,7 @@ body {
   opacity: 0.6;
   font-size: 18px;
   display: flex;
-  gap: 1.5px;
+  align-items: center;
 }
 
 .login {
@@ -91,7 +91,7 @@ body {
 }
 
 .searchbar_left {
-  opacity: 0.3;
+  opacity: 0.5;
   font-size: 14px;
 }
 
@@ -99,23 +99,7 @@ body {
   display: flex;
   gap: 20px;
   align-items: center;
-}
-
-.fa-keyboard {
   opacity: 0.5;
-}
-
-.fa-camera {
-  font-size: 19px;
-  margin-bottom: 3px;
-  /* color: rgb(33, 81, 227); */
-  background: -webkit-linear-gradient(
-    rgb(33, 81, 227),
-    rgba(236, 253, 49, 0.933),
-    #d53d3d
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .buttons {

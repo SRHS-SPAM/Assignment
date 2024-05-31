@@ -21,14 +21,14 @@ body {
   border-radius: 5px;
   width: 300px;
   height: 160px;
-  background-color: blueviolet;
+  background-color: #9746ff;
 }
 
 .bottom {
   border-radius: 5px;
   width: 400px;
   height: 40px;
-  background-color: blueviolet;
+  background-color: #9746ff;
 }
 
 .left {
@@ -41,7 +41,7 @@ body {
 }
 
 .box {
-  background-color: blueviolet;
+  background-color: #9746ff;
   width: 130px;
   height: 40px;
   border-radius: 5px;
@@ -49,6 +49,7 @@ body {
 
 .red {
   border-radius: 5px;
-  background-color: red;
+  background-color: #f24822;
   height: 70px;
+  width: 130px;
 }
